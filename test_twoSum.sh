@@ -20,8 +20,8 @@ answers=(
 )
 
 # Get the number of test cases
-num_cases=${#nums_list[@]}  # 공백 제거
-pass_count=0  # 통과한 테스트 케이스 수 초기화
+num_cases=${#nums_list[@]}  
+pass_count=0  
 
 # Loop through each test case
 for ((i=0; i<num_cases; i++)); do
